@@ -1,0 +1,37 @@
+#menu {
+	padding: 16px;
+	background-color: #f44336;
+	width: 300px;
+	height: 100%;
+	position: fixed;
+  color: white;
+}
+
+#menu>ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+  font-size: 18px;
+}
+
+#menu>ul>li>a {
+  display: block;
+  color:white;
+	display: block;
+	text-decoration: none;
+	padding: 10px 16px;
+}
+
+#menu>ul>li>a:hover {
+	background-color: white;
+  color: black;
+  margin-right: 5px;
+  margin-left: 2px;
+}
+
+#menu>h3 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-size: 27px;
+  line-height: 2;
+}
