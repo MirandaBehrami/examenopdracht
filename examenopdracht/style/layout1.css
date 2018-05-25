@@ -1,0 +1,16 @@
+#layout1 {
+		display: grid;
+		grid-template-columns: auto auto ;
+		grid-template-rows: auto ;
+		grid-template-areas: "menu container";
+  
+	}
+
+
+
+#menu {
+  grid-area: menu;
+}
+#container {
+  grid-area: container;
+}

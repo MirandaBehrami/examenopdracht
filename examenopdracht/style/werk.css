@@ -1,0 +1,69 @@
+#Werk {
+  	display: grid;
+		grid-template-columns: auto auto auto ;
+		grid-template-rows: auto;
+		grid-template-areas: "eigenaar admi vrijwilligers";
+  
+  grid-gap: 15px;
+  margin-bottom: 100px;
+
+}
+
+#eigenaar {
+  grid-area: eigenaar;
+}
+#admi {
+  grid-area: admi;
+}
+#vrijw {
+  grid-area: vrijwilligers;
+  margin-right: 40px;
+}
+
+
+
+
+#vrijw>img {
+  height: 330px;
+}
+
+#admi>img {
+  height: 330px;
+}
+#eigenaar>img {
+  height: 330px;
+}
+
+
+.pf-img {
+  background-color: #f1f1f1;
+  box-sizing: border-box;
+}
+
+.pf-img>img {
+  width: 100%;
+}
+
+.pf-img>h1 {
+  font-size: 20px;
+}
+.pf-img>h3 {
+  opacity: 0.60;
+  font-size: 13px;
+}
+.pf-img>p {
+  font-size: 13px;
+}
+.pf-img>h1, h3, p {
+  padding-right: 20px;
+  padding-left: 15px;
+}
+
+
+
+
+
+
+
+
+

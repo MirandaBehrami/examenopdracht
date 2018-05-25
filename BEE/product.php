@@ -1,9 +1,11 @@
 <?php
+
   include_once("database.php");
 
-   $productID = $_GET["id"];
-   $productItem = $products[$productID];
+  $productID = $_GET["id"];
+  $productItem = $products[$productID];
 ?>
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -43,13 +45,12 @@
 			</div>
 			
 			
+      
 			<div id="content">
-				<div id="imageTitle" style="background-image: url('images/<?= $productItem["image"];?>')">
+				<div id="imageTitle" style="background-image: url('images/<?= $productItem["image"]; ?>')">
 					<div>
 						<h1>
-						<?php
-                  echo $productItem["title"];
-               ?>
+<?= $productItem["title"]; ?>
 						</h1>
 					</div>
 				</div>
@@ -59,7 +60,7 @@
 						product specificaties:
 					</p>
 					<ul>
-						<li>prijs: 25,00 euro</li>
+						<li>prijs: 25,00 &euro;</li>
 						<li>spec 2</li>
 						<li>spec 3</li>
 						<li>spec 4</li>
@@ -69,9 +70,7 @@
 				
 				<div id="productDescription">
 					<p>
-						<?php
-                  echo $productItem["text"];
-            ?>
+<?= $productItem["text"]; ?>
 					</p>
 				</div>
 			</div>

@@ -16,7 +16,7 @@
 
 #menu>ul>li>a {
   display: block;
-  color:white;
+  color: white;
 	display: block;
 	text-decoration: none;
 	padding: 10px 16px;
@@ -35,3 +35,4 @@
   font-size: 27px;
   line-height: 2;
 }
+
